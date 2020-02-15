@@ -1,0 +1,16 @@
+#find whether number is even or odd
+def even_or_odd(n):
+#check whether number is zero
+ if(n==0):
+     print("zero")
+#check whether number is even
+ elif(n%2==0):
+     print("even")
+#check whether number is odd
+ else:
+     print("odd")
+num=float(input(""))
+#round off value
+n=round(num)
+even_or_odd(n)
+    

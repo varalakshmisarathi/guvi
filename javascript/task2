@@ -1,4 +1,4 @@
-#Simple DOM manipulation:
+#event handler
 <html>
 <head>
 <title>Create a div and change the color onmouse over</title>

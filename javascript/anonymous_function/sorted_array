@@ -1,0 +1,27 @@
+//return 2 sorted arrays of 2 sorted arrays using IIFE function
+var a = [1, 2, 3, 6, 8, 9, 10, 12, 13];
+var a1 = [4, 6, 8, 9, 12, 14, 16, 20, 25];
+(function() {
+if (a.length % 2 == 0) {
+var len = a.length / 2;
+console.log("median of first array is " + arr[len - 1] + " " + a[len]);
+console.log("median of second array is " + arr1[len - 1] + " " + a1[len]);
+} else {
+var len = Math.floor(a.length / 2);
+console.log("median of first array is " + a[len]);
+console.log("median of second array is " + a1[len]);
+}
+})();
+//return 2 sorted arrays of 2 sorted arrays using anonymous function
+var ano = function(arro) {
+if (a.length % 2 == 0) {
+var len = a.length / 2;
+console.log("median of first array is " + arr[len - 1] + " " + a[len]);
+console.log("median of second array is " + arr1[len - 1] + " " + a1[len]);
+} else {
+var len = Math.floor(a.length / 2);
+console.log("median of first array is " + a[len]);
+console.log("median of second array is " + a1[len]);
+}
+}
+ano(a);

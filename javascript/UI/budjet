@@ -1,6 +1,5 @@
 #budjet.html
 <!DOCTYPE html>
-<html>
 <head>
     <title>Budjet javascript</title>
     <meta charset="utf-8">
@@ -147,9 +146,10 @@ ul li {
             <li></li>
         </ul>
     </div>
- </div>
+
       </div>
-     </div>
+      </div>
+       </div>
   </body>
 </html>
 
@@ -214,7 +214,6 @@ for (i = 0; i < close.length; i++) {
 
   var listItem=this.parentNode;
   var ul=listItem.parentNode;
-  //Remove the parent list item from the ul.
   ul.removeChild(listItem);
 
 }

@@ -1,0 +1,33 @@
+const readline=require('readline');
+const inp=readline.createInterface({
+  input:process.stdin
+});
+const n=[];
+inp.on('line',(data)=>{
+  n.push(data);
+});
+inp.on('close',()=>{
+    var a=[];
+    var d=[];
+    a=n[0].split(" ");
+    var b=parseInt(n[1]);
+    function index(){
+    for(var i=0;i<a.length;i++)
+    {
+        if(parseInt(a[i])==b)
+        {
+           return i;
+        }
+        
+    }
+    }
+    var res=index();
+    console.log(res);
+ });
+ 
+ //input
+ 6 5 6
+ 5
+ output
+ 1
+ 

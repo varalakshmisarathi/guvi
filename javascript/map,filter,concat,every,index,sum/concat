@@ -1,0 +1,26 @@
+//concat()
+const readline=require('readline');
+const inp=readline.createInterface({
+  input:process.stdin
+});
+const a=[];
+inp.on('line',(data)=>{
+  a.push(data);
+});
+inp.on('close',()=>{
+  var c=a[0];
+  var d=a[1];
+  var m;
+    function concat()
+    {
+      m=c+d;
+      return m;
+    }
+  var result=concat();
+  console.log(result);
+ });
+ 
+ //output
+ hai
+ hello
+ haihello

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>profile</title>
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+</head>
+<style>
+	.split{
+		width:50%;
+		position:absolute;
+		z-index:2;
+		top:20;
+		padding: -top:10px;
+	}
+	.left{
+		left:0;
+
+	}
+	.right{
+		right:0;
+	}
+	#head{
+		text-indent: 45px;
+		color: orange;
+	}
+	.point{
+		text-indent: 45px;
+		text-align: left;
+	}
+	.nav{
+		height:45px;
+		width: 177px;
+        background-color: orange;
+        left:55px;
+	}
+	#mh{
+		position: relative;
+		text-align: center;
+		background-color: orange;
+		left:375px;
+		width: 35%;
+		height: 40px;
+		margin-top: 11px;
+        border-radius: 5px;
+		
+	}
+	.container{
+		width: 75%;
+		background-color: #ddd;
+		position: relative;
+		left:45px;
+		height: 13px;
+	}
+	.skills{
+		text-align: right;
+		font-size:11px;
+	}
+	.js{
+		width: 65%;
+		height: 13px;
+		background-color: orange;
+	}
+	.pyt{
+		width: 75%;
+		height:13px;
+		background-color: brown;
+	}
+	.Html{
+		width: 80%;
+		height: 13px;
+		background-color: pink;
+	}
+	.css{
+		width: 50%;
+		height: 13px;
+		background-color: red;
+	}
+	.mysql{
+		width: 60%;
+		height: 13px;
+		background-color: blue;
+	}
+</style>
+<body>
+	<div id="mainpage">
+		
+		<h1 id="mh">VARALAKSHMI.P</h1>
+		<h4 style="text-align: center;">No.42 Debesan Pet,Muthialpet,Puducherry- 605003| lakshmisarathi08@gmail.com</h4>
+		<hr>
+		<div class="split left" >
+			<div><h2 id="head">profile</h2></div>
+			<div style="position: relative;left: 45px;">
+			<p style="text-align: left; ">Innovative optimized solution seeker.Excited to be at the deployment phase of my new career as a web developer. I am ambitious,adventurous,assiduous,animated, and an a literation advocate.</p></div>
+			<h2 id="head">skills</h2>
+			<div id="tskills">
+				<h3 style="text-indent: 45px;">Technical Skills</h3>
+				
+				<p class="point">Javascript</p><div class="container"><div class="skills js">65%</div></div>
+					<p class="point">Python</p><div class="container"><div class="skills pyt">75%</div></div>
+					<p class="point">HTML</p><div class="container"><div class="skills Html">80%</div></div>
+					<p class="point">CSS</p><div class="container"><div class="skills css">50%</div></div>
+					<p class="point">Mysql</p><div class="container"><div class="skills mysql">60%</div></div>
+				
+				
+			</div>
+			<h2 id="head">Workshops</h2>
+			<p class="point">	Participated in a workshop on "App development" held at VORTEX'18,the National level technical symposium organized by National institute of technology</p>
+            
+		</div>
+			<div  class="split right">
+				<h2 id="head">Education</h2>
+				<p class="point">completed sslc at St.joseph Girls High School with 95% in year of 2014</p>
+				<p class="point">completed HSC at Immaculate Heart Of Mary Girls Hr. Sec. School with 87% in year of 2016</p>
+				<p class="point">Pursuing B.Tech(CSE) from Rajiv gandhi college of Engineering and Technology with 8.0CGPA </p>
+				<h2  id="head">Extra activities and hobbies</h2>
+				<ul>
+				<li><p class="point">Participated in cultural activities in  College</p></li>
+					<li><p class="point">Appointed as an event co.ordinator</p></li>
+					<li><p class="point">Like to do innovative things</p></li>
+				</ul>
+				<h2 id="head">certification course</h2>
+				<ul>
+				<li><p class="point">Mysql</p></li><li><p class="point">App development</p></li><li><p class="point">Python</p></li>
+				</ul>
+
+			</div>
+	</div>
+	</body>
+</html>

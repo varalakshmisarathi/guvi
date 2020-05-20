@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="random()">SUBMIT</button>
+<p id="demo"></p>
+<script>
+function random()
+{      
+  var Z=[];
+  for(var i=0;i<5;i++)
+  {
+    var n = Math.floor((Math.random() * 10));
+    var count=0;
+    Z.push(n);
+    if (Z.length>=1)
+     {
+      for(j=0;j<Z.length-1;j++)
+      {
+        if(Z[i]==Z[j])
+         {
+           Z.pop();
+           count=count+1;
+           break;
+         }
+      }
+         if(count>0)
+         {
+          i--;
+         }
+     }
+   }
+  document.getElementById("demo").innerHTML = Z.join("");;
+}
+</script>
+
+</body>
+</html>

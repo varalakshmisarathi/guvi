@@ -1,12 +1,4 @@
-/* Write a function called “transformGeekData” that transforms some set of data from one format to another.
-Input (Array):
-var array = [[[“firstName”, “Vasanth”], [“lastName”, “Raja”], [“age”, 24], [“role”, “JSWizard”]], [[“firstName”, “Sri”], [“lastName”, “Devi”], [“age”, 28], [“role”, “Coder”]]];
-Output:
-[
-{firstName: “Vasanth”, lastName: “Raja”, age: 24, role: “JSWizard”},
-{firstName: “Sri”, lastName: “Devi”, age: 28, role: “Coder”}
-] */
-
+//Write a function called â€œtransformGeekDataâ€ that transforms some set of data from one format to another.
 var arr= [[['firstName', 'Vasanth'], ['lastName', 'Raja'], ['age', 24], ['role', 'JSWizard']], [['firstName', 'Sri'], ['lastName', 'Devi'], ['age', 28], ['role', 'Coder']]];
 function transformEmployeeData(arr) {
  var array = [];

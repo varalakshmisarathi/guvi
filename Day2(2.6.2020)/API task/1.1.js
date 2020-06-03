@@ -5,7 +5,7 @@ request.onload=function(){
     var jsondata=JSON.parse(this.response);
     for(i=0;i<jsondata.length;i++)
     {
-        console.log(jsondata[i].flag);
+        console.logjsondata[i].name,jsondata[i].flag);
     }
 }
 request.send();

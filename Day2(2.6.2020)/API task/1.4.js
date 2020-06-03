@@ -5,7 +5,7 @@ request.onload=function(){
     var jsondata=JSON.parse(this.response);
     for(i=0;i<jsondata.length;i++)
     {
-        console.log(jsondata[i].flag);
+        console.log(jsonData[i].name +" shares its  border with " + jsonData[i].borders.length +" countries that includes "+jsonData[i].borders);
     }
 }
 request.send();

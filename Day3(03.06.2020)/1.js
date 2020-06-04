@@ -408,3 +408,226 @@ function getLastElement(array){
  }
 }
  console.log(getLastElement([1, 2, 3, 4]));
+
+
+
+
+
+//problem21
+//Write a function called “getProperty”.
+//Given an object and a key, “getProperty” returns the value of the property at the given key. If there is no property at the given key, it should return undefined.
+    var obj = {
+    mykey: “value"};
+    Input:
+     getProperty(obj,’mykey’);
+      getProperty(obj,’dummykey’);
+      Output:
+      value
+      NA
+ var obj = {
+ mykey: "value"
+};
+function getProperty(obj, key) {
+      
+      console.log(obj[key])
+ 
+}
+getProperty(obj,"mykey")
+
+
+
+//problem22
+//Write a function called “addProperty”.
+//Given an object, and a key, “addProperty” sets a new property on the given object with a value of true.
+   var obj = {
+   mykey: “value”,
+   myProperty: true
+   }
+   Input:
+   removeProperty(obj, “mykey”);
+   removeProperty(obj, “name”);
+   Output:
+   {
+   myProperty: true
+   }
+   undefined
+
+  var obj = {
+ mykey: "value"
+};
+function addProperty(obj, key){
+     obj.key="hello";
+     console.log(obj);
+}
+addProperty(obj,"mykey")
+
+
+//problem23
+Write a function called “removeProperty”.
+Given an object and a key, “removeProperty” removes the given key from the given object.
+Input:
+removeProperty(obj, “name”);
+Output:
+undefined
+  var obj = {
+  mykey: "value"
+  };
+  function removeProperty(obj, key){
+
+         delete obj[key]
+         console.log(obj);
+  }
+  removeProperty(obj,"mykey")
+
+
+
+//problem24
+//Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers.
+var arr = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+var ar2 = function countPositivesSumNegatives(arr) {
+    var p=0,n=0;
+    var newarray=arr.map(function(a){
+        if(a>=0){
+            p+=1
+        }
+        else{
+            n+=1
+        }
+    })
+    arr=[];
+    arr.push(p);
+    arr.push(n);
+    return arr;}
+console.log(ar2(arr));
+
+
+
+//problem25
+//Create a function that receives an array of numbers and returns an array containing only the positive numbers
+function getPositives(ar)
+{
+    var empty=[]
+ var array=ar.map(function(a){
+     if(a>0)
+     {
+         empty.push(a);
+     }
+ })
+ return empty;
+}
+var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+var ar2 = getPositives(ar);
+console.log(ar2);
+
+
+
+//problem26
+//Write a function `powersOfTwo` which will return list of all powers of 2 from 0 to n (where n is an exponent).
+n = 0 -> 2⁰ -> [1]
+n = 1 -> 2⁰, 2¹ -> [1,2]
+n = 2 -> 2⁰, 2¹, 2² -> [1,2,4]
+//Input:
+powersOfTwo(0)
+powersOfTwo(1)
+powersOfTwo(2)
+//Output:
+1
+1,2
+1,2,4
+
+function powersOfTwo(n){
+	var res=[];
+	for(i=0;i<=n;i++){
+		res.push(2**i)
+	}
+  
+  return res;
+}
+console.log(powersOfTwo(3));
+
+
+
+//problem27
+//Find the maximum number in an array of numbers
+function findMax(ar)
+{
+   return Math.max(...ar);
+}
+var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+var max = findMax(ar);
+
+
+//problem28
+//Print the first 100 prime numbers
+//function to print prime numbers
+function printPrimes(n)
+{
+for (var i=3;i<n;i+=2){
+    var isPrime = true;
+    for (var j = 0;j<primes.length;j++){
+        if (i%primes[j]===0){
+            isPrime=false;
+            break;
+        }
+    }
+    if(isPrime){primes.push(i)
+        
+    }
+}
+    return primes
+
+}
+
+
+//problem29
+//Reverse a string
+var s = reverseString("JavaScript");
+console.log(s);
+function reverseString(s)
+{
+   return s.split("").reverse().join("");
+}
+
+
+//problem30
+//Create a function that will merge two arrays and return the result as a new array
+var ar1 = [1, 2, 3];
+var ar2 = [4, 5, 6];
+var ar = mergeArrays(ar1, ar2);
+console.log(ar);
+function mergeArrays(ar1, ar2)
+{
+ var result = [];
+//this will add the first array to the result array
+for(let el of ar1)
+ {
+ result.push(el);
+ }
+ for(let el of ar2)
+ {
+ result.push(el);
+ }
+ return result;
+}
+console.log("max",max);
+
+
+
+//problem31
+//Calculate the sum of numbers received in a comma delimited string
+console.log(sumCSV('1.5, 2.3, 3.1, 4, 5.5, 6, 7, 8, 9, 10.9'));
+function sumCSV(s)
+{
+  var empty=[];
+  empty=s.split(",");
+  var sum=empty.reduce(function(accumulator,currentvalue)
+                       {
+       return accumulator+currentvalue
+  }) 
+console.log(sum);
+
+}
+
+
+
+

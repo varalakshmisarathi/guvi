@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>obesity</title>
+</head>
+<style>
+#div1{
+position: relative;
+right:120px;
+height: 288px;
+width: 405px;
+background-color: orange;
+}
+#div2{
+position: absolute;
+left:740px;
+height: 289px;
+width: 405px;
+background-color: skyblue;
+top:120px;
+}
+#div3{
+position: relative;
+left:70px;
+height: 188px;
+width: 790px;
+background-color: red;
+top:40px;
+}
+#l1
+{
+position: relative;
+left:1px;
+top:40px;
+}
+#l2
+{
+position: absolute;
+left:600px;
+top:30px;
+}
+#div4{
+position: relative;
+left:5px;
+height: 250px;
+width: 790px;
+background-color: skyblue;
+top:40px;
+}
+#div7{
+position: absolute;
+right:10px;
+height: 130px;
+width: 790px;
+background-color: skyblue;
+top:350px;
+}
+#div8{
+position: absolute;
+right:10px;
+height: 130px;
+width: 790px;
+background-color: orange;
+top:500px;
+}
+#l3
+{
+position: absolute;
+left:50px;
+top:20px;
+}
+#l4
+{
+position: absolute;
+left:500px;
+top:40px;
+}
+#div5{
+position: absolute;
+left:5px;
+height: 289px;
+width: 405px;
+background-color: red;
+top:300px;
+}
+#div6{
+position: relative;
+left:210px;
+height: 290px;
+width: 400px;
+background-color: orange;
+top:300px;
+}
+#l5
+{
+position: absolute;
+left:60px;
+top:40px;
+}
+#l6
+{
+position: absolute;
+left:100px;
+top:170px;
+}
+#div9{
+position: relative;
+right:400px;
+height: 288px;
+width: 405px;
+background-color: skyblue;
+top:650px;
+}
+#div10{
+position: absolute;
+left:5px;
+height: 289px;
+width: 380px;
+background-color: red;
+top:650px;
+}
+</style>
+<body style="background-color:grey;">
+<center><h1 style="color:red">OBESITY</h1>
+<center><h3 style="color:white">CHILDHOOD STATISTICS</h3>
+<div id="div1">
+<img src="1.jpg"width="30" height="30" top="500">
+<p><h3 style="color:white">1 IN 3</<h3 style="color:white">children and<br>adolescents[ages 2.13]<h1 style="color:white">ARE OVERWEIGHT<BR>OR OBESE</h1><h3 style="color:white">and almost NONE meet recommended healthy diet and<br>physical activity amount</h3></p>
+</div>
+<div id="div2">
+<img src="1.png"width="30" height="30" top="500">
+<p><h3 style="color:white">12.5<br>MILLION</h3><h3 style="color:white">children(ages 5 years of<br>younger)spend<br><h1 style="color:white">33 HOURS/WEEK<BR><h3 style="color:white">in child care settings and<br>consume nearly all daily calories</p>
+</div>
+<div id="div3">
+<div id="l1">
+<p><h3 style="color:white">OBESITY IS LINKED<br>TO MORE CHRONIC<br>CONDITIONS THAN:</h3><h3 style="color:white">increasing the risk of more than 20 preventable disesaes including sleep<br>type2 diabetes,high blood pressur and high chlolesterol stroke<h3></p>
+<div id="l2">
+<img src="1.jpg"width="30" height="30" top="500">
+<img src="2.jpg"width="30" height="30" top="500">
+<img src="3.jpg"width="30" height="30" top="500">
+</div>
+<div>
+<div id="div4">
+<div id="l3"
+<p><h3 style="color:white">RISK FACTORS</h3><h3 style="color:white">children in their early teens who have<br>obese and high triglyceride<br>level have arteries similar to those<br> of 45 years old<br>obese children as young as age 3</h3></p>
+</div>
+<div id="l4"
+<p><h3 style="color:white">children who are overweight from the ages of<br>7 to 13 may develop heart disese as early as age 25<br>obese children are twice as likely to die<br>before age 55</h3></p>
+</div>
+<div id="div5">
+<div id="l5">
+<p><h3 style="color:white">FRENCH FRIES<br>are the most common vegetable<br>that children eat,compressing<br>25%<br>of their vegetable intake<h3><p>
+<div id="l6"><img src="1.png"width="30" height="30" top="500"></div>
+</div>
+</div>
+<div id="div6">
+<div id="l5">
+<p><h3 style="color:white">JUICE<br>(which may lack important fibre<br>found in whole fruit)makes up<br>40%<br>of children's daily fruit intake<h3><p>
+<div id="l6"><img src="1.png"width="30" height="30" top="500"></div>
+</div>
+<div id="div7">
+<div id="l2">
+<img src="1.jpg"width="30" height="30" top="500"></div>
+<p><h1 style="color:white">40%-50% of<br>TODDLERS</h1><p> 
+</div>
+<div>
+<div id="div8">
+<div id="l2">
+<img src="1.jpg"width="30" height="30" top="500"></div>
+<p><h1 style="color:white">NEARLY 1/2 OF<br>PRESCHOOLERS</h1><p> 
+</div>
+<div>
+<div id="div9">
+<img src="1.jpg"width="30" height="30" top="500">
+<p><h3 style="color:white">The cost of obesity in the united states is stagging totalling about<h3><h1 style="color:white">$147<br>BILLION</h1><p>
+</div>
+<div id="div10">
+<img src="1.png"width="30" height="30" top="500">
+<p><h1 style="color:white">CHILDREN WHO EAT HEALTHY FOODS AND GET DAILY PHYSICAL ACTIVITY HAVE</h1></p>
+</div>
+</body>
+</html>
